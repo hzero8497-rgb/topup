@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LastWar Topup — Survival Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap">
+      <a class="brand" href="#hero" aria-label="LastWar Topup home"><span>LW</span> Topup</a>
+      <div class="nav-links" aria-label="Navigasi utama">
+        <a href="#packages">Paket</a><a href="#payment">Payment</a><a href="#history">Histori</a><a href="#admin">Admin</a>
+      </div>
+      <a class="nav-cta" href="#order">Topup Sekarang</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Official style storefront • LastWar Survival</p>
+        <h1>Toko topup LastWar Survival yang clean, cepat, dan siap jualan.</h1>
+        <p class="hero-text">Landing page toko topup bernuansa black premium dengan katalog paket, payment gateway, live chat, histori transaksi, dan admin dashboard.</p>
+        <div class="hero-actions"><a class="btn primary" href="#order">Buat Pesanan</a><a class="btn ghost" href="#admin">Lihat Dashboard</a></div>
+        <div class="stats"><span><strong>24/7</strong>Live chat</span><span><strong>3 menit</strong>Estimasi proses</span><span><strong>100%</strong>Histori rapi</span></div>
+      </div>
+      <div class="hero-card" aria-label="Preview transaksi">
+        <div class="phone-bar"><span></span><span></span><span></span></div>
+        <h2>Topup LastWar</h2>
+        <p>ID Player: 8492 1103</p>
+        <div class="selected-pack"><span>2.200 Diamonds</span><strong>Rp249.000</strong></div>
+        <div class="progress"><i></i></div>
+        <small>Status: Payment verified • Queue delivery</small>
+      </div>
+    </section>
+
+    <section id="packages" class="section wrap">
+      <div class="section-head"><p class="eyebrow">Katalog Paket</p><h2>Pilihan topup populer</h2></div>
+      <div class="package-grid">
+        <article class="package"><h3>Starter Pack</h3><p>500 Diamonds</p><strong>Rp59.000</strong><button>Pilih Paket</button></article>
+        <article class="package featured"><span class="badge">Best Seller</span><h3>Warrior Pack</h3><p>2.200 Diamonds</p><strong>Rp249.000</strong><button>Pilih Paket</button></article>
+        <article class="package"><h3>Commander Pack</h3><p>5.000 Diamonds</p><strong>Rp529.000</strong><button>Pilih Paket</button></article>
+      </div>
+    </section>
+
+    <section id="order" class="section wrap split">
+      <div><p class="eyebrow">Order Form</p><h2>Masukkan data player</h2><p>Form ringkas untuk ID player, server, paket, dan kontak WhatsApp agar CS bisa membantu jika transaksi perlu verifikasi.</p></div>
+      <form class="order-form">
+        <label>ID Player<input type="text" placeholder="Contoh: 84921103"></label>
+        <label>Server<input type="text" placeholder="Contoh: S-129"></label>
+        <label>Paket<select><option>Warrior Pack — Rp249.000</option><option>Starter Pack — Rp59.000</option><option>Commander Pack — Rp529.000</option></select></label>
+        <label>WhatsApp<input type="tel" placeholder="08xxxxxxxxxx"></label>
+        <button class="btn primary" type="button">Lanjut Payment</button>
+      </form>
+    </section>
+
+    <section id="payment" class="section wrap">
+      <div class="section-head"><p class="eyebrow">Payment Gateway</p><h2>Metode pembayaran otomatis</h2></div>
+      <div class="payment-row"><span>QRIS</span><span>Virtual Account</span><span>E-Wallet</span><span>Retail Outlet</span><span>Kartu Debit</span></div>
+    </section>
+
+    <section id="history" class="section wrap split reverse">
+      <div class="history-card"><div><span>#LW-24018</span><b>Delivered</b></div><div><span>#LW-24017</span><b>Processing</b></div><div><span>#LW-24016</span><b>Paid</b></div></div>
+      <div><p class="eyebrow">Histori Transaksi</p><h2>Pelanggan bisa cek status kapan saja</h2><p>Tampilkan invoice, status pembayaran, antrean proses, hingga riwayat paket yang pernah dibeli.</p></div>
+    </section>
+
+    <section id="admin" class="section wrap admin">
+      <div><p class="eyebrow">Admin Dashboard</p><h2>Kontrol order dari satu layar</h2></div>
+      <div class="dashboard-grid"><article><small>Revenue hari ini</small><strong>Rp12,4jt</strong></article><article><small>Order aktif</small><strong>86</strong></article><article><small>Chat menunggu</small><strong>12</strong></article><article><small>Success rate</small><strong>99,2%</strong></article></div>
+    </section>
+  </main>
+
+  <button class="chat-widget" type="button" aria-label="Buka live chat"><span>Live Chat</span><b>?</b></button>
+  <footer class="footer wrap">© 2026 LastWar Topup. Clean black storefront concept.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
